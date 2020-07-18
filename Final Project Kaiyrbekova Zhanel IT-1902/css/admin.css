@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    font-family: "kollektif",sans-serif,cursive ;
+}
+
+.admin-wrapper{
+    display: flex;
+    margin-top: 65px;
+    height: 100%;
+}
+
+.admin-wrapper .left-sidebar{
+    flex: 3;
+    background-color: #957dad;
+}
+
+.admin-wrapper .left-sidebar ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.admin-wrapper .left-sidebar ul li a{
+    padding: 18px;
+    display: block;
+    border-bottom: 1px solid #ffde59;
+    text-decoration: none;
+
+}
+
+.admin-wrapper .left-sidebar ul li a:hover{
+
+    background-color:#957dad;
+}
+
+.admin-wrapper .admin-content{
+    flex: 7;
+    padding: 40px 100px 100px;
+    overflow-y: scroll;
+}
+.submit_button{
+    padding: 18px 40px;
+    font-size: 16px;
+    color: white;
+    background:  #F5A7BC;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: .2s;
+    max-width: 200px;
+}
+
+.submit_button:hover{
+    box-shadow:0 0 10px #F5A7BC, 0 0 20px #F5A7BC, 0 0 30px #F5A7BC;
+    text-shadow: 0px 0px 1px #ffde59;
+}
